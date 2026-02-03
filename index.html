@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Abhishek Pawar | Frontend Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f5f7fb;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #4f46e5, #06b6d4);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 40px; margin-bottom: 10px; }
+    header p { font-size: 18px; opacity: 0.95; }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+    h2 {
+      color: #4f46e5;
+      margin-bottom: 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      margin-bottom: 25px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #eef2ff;
+      color: #4338ca;
+      padding: 8px 14px;
+      margin: 6px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-right: 12px;
+      margin-top: 10px;
+      color: #4f46e5;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #111827;
+      color: #e5e7eb;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Abhishek Nivrutti Pawar</h1>
+  <p>Frontend Web Developer | Building clean & responsive web experiences</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I am a frontend web developer skilled in HTML, CSS, and JavaScript.
+      I focus on creating responsive, user-friendly websites and enjoy turning
+      ideas into real, live products. Actively looking for internship opportunities.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span>HTML5</span>
+    <span>CSS3</span>
+    <span>JavaScript</span>
+    <span>Responsive Design</span>
+    <span>Git & GitHub</span>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="projects">
+
+    <div class="card project-card">
+      <h3>Todo List App</h3>
+      <p>Task management app with add, delete, and local storage support.</p>
+      <a href="#">Live Demo</a>
+      <a href="#">GitHub</a>
+    </div>
+
+    <div class="card project-card">
+      <h3>Responsive Landing Page</h3>
+      <p>Mobile-first landing page built using modern CSS layouts.</p>
+      <a href="#">Live Demo</a>
+      <a href="#">GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: <a href="mailto:abhisheknpawar7@gmail.com">abhisheknpawar7@gmail.com</a></p>
+    <p>LinkedIn: <a href="#">Add LinkedIn link</a></p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Abhishek Pawar • Deployed with Kuberns AI
+</footer>
+
+</body>
+</html>
